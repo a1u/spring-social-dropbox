@@ -20,7 +20,7 @@ public class DropboxServiceProvider extends AbstractOAuth2ServiceProvider<Dropbo
         super(
                 new OAuth2Template(consumerKey, consumerSecret,
                 "https://www.dropbox.com/1/oauth2/authorize",
-                "https://api.dropbox.com/1/oauth2/access_token"
+                "https://api.dropbox.com/1/oauth2/token"
         ));
         this.appFolder = appFolder;
     }
